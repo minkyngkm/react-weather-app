@@ -1,13 +1,32 @@
-body {
+* { 
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-sizing: border-box 하는 이유? */
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'monseratt', sans-serif;
+}
+.app {
+  background-image: url('./images/summer.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition : 6 ease;
+}
+.app.warm {
+  background-image: url('./images/winter.jpg');
+}
+.searchBar {
+  width: 50vw;
+  height: 5vh;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+main {
+  min-height: 100vh;
+  /* background-color: linear-gradient(to bottom, rgba(0,0,0,0.2)), rgba(0,0,0,0.75); */
+}
+.search-box{
+  width:100%
 }
