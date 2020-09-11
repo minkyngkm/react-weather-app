@@ -1,10 +1,10 @@
-.search-box {
+.searchBox {
     width: 100%;
     display: flex;
   
   }
   
-  .search-bar{
+  .searchBar{
     justify-content: center;
     width: 80%;
     height: 5vh;
@@ -17,6 +17,6 @@
     box-shadow: 5px 5px rgba(0,0,0,.5);
   }
   
-  .search-bar:focus{
+  .searchBar:focus{
     outline: none;
   }

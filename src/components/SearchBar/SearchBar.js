@@ -1,11 +1,11 @@
 import React from 'react'
-import './SearchBar.css'
+import styles from './SearchBar.module.css'
 
 export function SearchBar({searchTerm, search, changeHandler}) {
     return (
-        <div className="search-box">
+        <div className={styles.searchBox}>
             <input
-                className="search-bar"
+                className={styles.searchBar}
                 placeholder="Search..."
                 type='text'
                 value={searchTerm}
